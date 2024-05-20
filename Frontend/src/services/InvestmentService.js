@@ -1,4 +1,4 @@
-const API_BASE_URL = '';
+const apiUrl = '';
 
 const getAllInvestments = async () => {
     // write your logic here
@@ -15,7 +15,7 @@ const createInvestment = async (investment) => {
     return null;
 };
 
-const updateInvestment = async (id, investment) => {
+const updateInvestment = async (investment) => {
     // write your logic here
     return null;
 };
@@ -25,16 +25,10 @@ const deleteInvestment = async (id) => {
     return null;
 };
 
-const fetchByCategories = async (category) => {
-    // write your logic here
-    return null;
-};
-
 export default {
     getAllInvestments,
     getInvestmentById,
     createInvestment,
     updateInvestment,
-    deleteInvestment,
-    fetchByCategories
+    deleteInvestment
 };
